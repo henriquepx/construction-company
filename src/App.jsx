@@ -1,5 +1,6 @@
 import Header from "./sections/Header"
 import Main from "./sections/Main"
+import SectionAchievementsClients from "./sections/SectionAchievementsClients"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Main />
+      <SectionAchievementsClients />
     </>
   )
 }
