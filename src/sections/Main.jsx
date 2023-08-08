@@ -1,25 +1,27 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import MainAvaliation from '../components/MainAvaliation';
 
 const MainContainer = styled.main`
     height: 93vh;
     background-image: url(/bginitial.png);
     background-size: cover;
-`
+`;
+
 const MainSize = styled.div`
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-
     padding: 10rem 0rem;
-`
+`;
+
 const TitleMain = styled.h1`
     font-family: var(--font);
     font-size: 4rem;
     font-weight: 600;
     color: var(--color-one);
-
     margin-bottom: 1rem;
-`
+`;
+
 const DescriptionMain = styled.p`
     color: var(--color-two);
     font-family: var(--font);
@@ -29,7 +31,8 @@ const DescriptionMain = styled.p`
         color: var(--color-one);
         font-weight: 800;
     }
-`
+`;
+
 const DivMainExplore = styled.div`
     display: flex;
     gap: 30px;
@@ -53,11 +56,11 @@ const DivMainExplore = styled.div`
         }
         p {
             color: var(--color-one);
-        font-family: var(--font);
-        font-weight: 550;
+            font-family: var(--font);
+            font-weight: 550;
         }
     }
-`
+`;
 
 const Main = () => {
   return (
@@ -74,9 +77,19 @@ const Main = () => {
                     <p>Explore</p>
                 </div>
             </DivMainExplore>
+            <MainAvaliation 
+                img="/Julio.png"
+                name="Julio"
+                position={{ top: '250px', right: '500px' }}
+            />
+            <MainAvaliation 
+                img="/Marta.png"
+                name="Marta"
+                position={{ top: '550px', right: '750px' }}
+            />
         </MainSize>
     </MainContainer>
-  )
+  );
 }
 
 export default Main;
