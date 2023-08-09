@@ -2,7 +2,7 @@ import Footer from "./sections/Footer"
 import Header from "./sections/Header"
 import Main from "./sections/Main"
 import SectionAchievementsClients from "./sections/SectionAchievementsClients"
-import SectionClientsCommentary from "./sections/SectionClientsCommentary"
+import SectionClients from "./sections/SectionClients"
 import SectionNoticesBuild from "./sections/SectionNoticesBuild"
 import SectionWaitlist from "./sections/SectionWaitlist"
 
@@ -14,7 +14,7 @@ function App() {
       <Main />
       <SectionAchievementsClients />
       <SectionNoticesBuild />
-      <SectionClientsCommentary />
+      <SectionClients />
       <SectionWaitlist />
       <Footer />
     </>
