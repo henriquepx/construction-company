@@ -3,6 +3,7 @@ import Main from "./sections/Main"
 import SectionAchievementsClients from "./sections/SectionAchievementsClients"
 import SectionClientsCommentary from "./sections/SectionClientsCommentary"
 import SectionNoticesBuild from "./sections/SectionNoticesBuild"
+import SectionWaitlist from "./sections/SectionWaitlist"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <SectionAchievementsClients />
       <SectionNoticesBuild />
       <SectionClientsCommentary />
+      <SectionWaitlist />
     </>
   )
 }

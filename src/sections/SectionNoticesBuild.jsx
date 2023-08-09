@@ -32,6 +32,8 @@ const ContainerBuilds = styled.div`
     img {
         max-width: 100%;
         height: auto;
+
+        margin-bottom: 10rem;
     }
 `
 
