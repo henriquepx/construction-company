@@ -1,6 +1,8 @@
 import Header from "./sections/Header"
 import Main from "./sections/Main"
 import SectionAchievementsClients from "./sections/SectionAchievementsClients"
+import SectionClientsCommentary from "./sections/SectionClientsCommentary"
+import SectionNoticesBuild from "./sections/SectionNoticesBuild"
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <Main />
       <SectionAchievementsClients />
+      <SectionNoticesBuild />
+      <SectionClientsCommentary />
     </>
   )
 }

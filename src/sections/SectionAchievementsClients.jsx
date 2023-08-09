@@ -43,6 +43,10 @@ const IntroContainerAchievements = styled.div`
     display: flex;
     flex-direction: column;
     width: 50%;
+    p {
+        font-family: var(--font);
+        color: var(--color-one);
+    }
 `
 const FlexWrapAchievements = styled.div`
     display: flex;

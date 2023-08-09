@@ -5,8 +5,7 @@ const ContainerAchievements = styled.div`
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
-    width: 250px;
+    gap: 20px;
     div {
         h1 {
             font-family: var(--font);

@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
     --color-one: #263640;
     --color-two: #7591A3;
     --color-white: #FFFFFF;
+    --color-gray: #929A9F;
 
     --font: 'Montserrat', sans-serif;
   }
