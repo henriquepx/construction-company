@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import PropTypes from 'prop-types';
 
 const ContainerClientSlider = styled.div`
   display: flex;
@@ -60,7 +61,7 @@ const ProfileClientSlider = styled.div`
 `
 
 
-const ClientSlider = () => {
+const ClientSlider = ({ img, name, job }) => {
   
     return (
       <ContainerClientSlider>
@@ -72,14 +73,20 @@ const ClientSlider = () => {
           <TextBubble />
         </TextClientSlider>
         <ProfileClientSlider>
-          <img src="/client.png" alt="Cliente 1" />
+          <img src={img} alt="Cliente 1" />
           <div>
-            <h1>Jane Cooper</h1>
-            <p>CEO, ABC Corporation</p>
+            <h1>{name}</h1>
+            <p>{job}</p>
           </div>
         </ProfileClientSlider>
       </ContainerClientSlider>
     );
+  };
+
+  ClientSlider.propTypes = {
+    img: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    job: PropTypes.string.isRequired,
   };
 
 export default ClientSlider;

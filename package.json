@@ -15,6 +15,7 @@
     "react-dom": "^16.14.0",
     "react-icons": "^4.10.1",
     "react-reveal": "^1.2.2",
+    "react-simply-carousel": "^9.0.4",
     "styled-components": "^6.0.7"
   },
   "devDependencies": {
