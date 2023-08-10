@@ -19,7 +19,7 @@ const TitleClientsContainer = styled.h1`
 const SectionClients = () => {
   return (
     <SectionClientsContainer>
-        <TitleClientsContainer>Client Testimonials</TitleClientsContainer>
+        <TitleClientsContainer>Few Words From Our Clients</TitleClientsContainer>
         <ClientSlider />
     </SectionClientsContainer>
   )
