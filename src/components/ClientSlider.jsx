@@ -61,15 +61,15 @@ const ProfileClientSlider = styled.div`
 `
 
 
-const ClientSlider = ({ img, name, job }) => {
+const ClientSlider = ({ img, name, job, text }) => {
   
     return (
       <ContainerClientSlider>
         <TextClientSlider>
           <Quot>"</Quot>
           <DescClientSlider>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt ipsum culpa dolor nihil accusantium. Unde accusamus sequi sapiente repellendus tempora, cupiditate vitae temporibus quaerat. Ratione et, eveniet incidunt itaque tempore libero sit porro perferendis. Alias minima perferendis, aperiam aliquid veniam ab odit nihil eveniet deserunt. Sunt eum aliquid quos quibusdam fugit? Et eos ducimus temporibus quam laudantium voluptatum corporis quaerat! Praesentium unde nobis alias accusamus id porro magnam cumque perspiciatis!
-          </DescClientSlider>
+            {text} 
+            </DescClientSlider>
           <TextBubble />
         </TextClientSlider>
         <ProfileClientSlider>
@@ -86,6 +86,7 @@ const ClientSlider = ({ img, name, job }) => {
   ClientSlider.propTypes = {
     img: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
     job: PropTypes.string.isRequired,
   };
 
