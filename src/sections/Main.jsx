@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import MainAvaliation from '../components/MainAvaliation';
 
 const MainContainer = styled.main`
-    height: 93vh;
+    height: 100vh;
     background-image: url(/bginitial.png);
     background-size: cover;
 `;

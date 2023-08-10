@@ -1,5 +1,6 @@
-import styled from 'styled-components'
-import Achievements from '../components/Achievements'
+import styled from 'styled-components';
+import Achievements from '../components/Achievements';
+import Fade from 'react-reveal/Fade';
 
 const SectionContainer = styled.div`
     height: 100vh;
@@ -60,44 +61,48 @@ const SectionAchievementsClients = () => {
   return (
     <SectionContainer>
         <SizeSectionAchCli>
-            <ContainerAchievements>
-                <IntroContainerAchievements>
-                    <TitleSecAchievements>Over a Decade of Achievements</TitleSecAchievements>
-                    <p>With our super powers we have reached this.</p>
-                </IntroContainerAchievements>
-                <FlexWrapAchievements>
-                    <Achievements 
-                        photo="/satisfiedclients.png"
-                        title="10,000+"
-                        desc="Satisfied Clients"
-                    />
-                    <Achievements 
-                        photo="/skilledworkers.png"
-                        title="2 Million"
-                        desc="Skilled Workers"
-                    />
-                    <Achievements 
-                        photo="/projectscompleted.png"
-                        title="500+"
-                        desc="Projects Completed"
-                    />
-                    <Achievements 
-                        photo="/countries.png"
-                        title="140"
-                        desc="Countries"
-                    />
-                </FlexWrapAchievements>
-            </ContainerAchievements>
+            <Fade right big>
+                <ContainerAchievements>
+                    <IntroContainerAchievements>
+                        <TitleSecAchievements>Over a Decade of Achievements</TitleSecAchievements>
+                        <p>With our super powers we have reached this.</p>
+                    </IntroContainerAchievements>
+                    <FlexWrapAchievements>
+                        <Achievements 
+                            photo="/satisfiedclients.png"
+                            title="10,000+"
+                            desc="Satisfied Clients"
+                        />
+                        <Achievements 
+                            photo="/skilledworkers.png"
+                            title="2 Million"
+                            desc="Skilled Workers"
+                        />
+                        <Achievements 
+                            photo="/projectscompleted.png"
+                            title="500+"
+                            desc="Projects Completed"
+                        />
+                        <Achievements 
+                            photo="/countries.png"
+                            title="140"
+                            desc="Countries"
+                        />
+                    </FlexWrapAchievements>
+                </ContainerAchievements>
+            </Fade>
 
-            <div>
-                <TitleTrustedClients>Our Trusted Clients</TitleTrustedClients>
-                <DivImgsCompany>
-                    <img src="/company.png" alt="Spark" />
-                    <img src="/company2.png" alt="Logaz" />
-                    <img src="/company3.png" alt="Spona" />
-                    <img src="/company4.png" alt="Olla" />
-                </DivImgsCompany>
-            </div>
+            <Fade left big>
+                <div>
+                    <TitleTrustedClients>Our Trusted Clients</TitleTrustedClients>
+                    <DivImgsCompany>
+                        <img src="/company.png" alt="Spark" />
+                        <img src="/company2.png" alt="Logaz" />
+                        <img src="/company3.png" alt="Spona" />
+                        <img src="/company4.png" alt="Olla" />
+                    </DivImgsCompany>
+                </div>
+            </Fade>
         </SizeSectionAchCli>
     </SectionContainer>
   )
