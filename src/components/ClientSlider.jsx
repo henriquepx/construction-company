@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types';
+import { BiSolidQuoteAltLeft } from 'react-icons/bi';
 
 const ContainerClientSlider = styled.div`
   display: flex;
@@ -22,6 +23,9 @@ const TextClientSlider = styled.div`
 
   margin-bottom: 2rem;
 `
+const LargeQuoteIcon = styled(BiSolidQuoteAltLeft)`
+  font-size: 7rem;
+`;
 const TextBubble = styled.div`
   content: '';
   position: absolute;
@@ -33,9 +37,6 @@ const TextBubble = styled.div`
   border-left-color: var(--color-white);
   transform: rotate(90deg);
 `;
-const Quot = styled.p`
-  font-size: 5rem;
-`
 const DescClientSlider = styled.p`
   margin-top: 1rem;
   line-height: 1.35;
@@ -66,7 +67,7 @@ const ClientSlider = ({ img, name, job, text }) => {
     return (
       <ContainerClientSlider>
         <TextClientSlider>
-          <Quot>"</Quot>
+          <LargeQuoteIcon />
           <DescClientSlider>
             {text} 
             </DescClientSlider>
