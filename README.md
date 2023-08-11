@@ -1,12 +1,12 @@
-# ISTAXIN | Construction Company
+# ISTAIX | Construction Company
 
-![ISTAXIN Logo](./public/logoreadme.png)
+![ISTAIX Logo](./public/logoreadme.png)
 
-Bem-vindo ao repositório do projeto ISTAXIN | Construction Company! Este projeto apresenta o website de uma empresa de construtora fictícia, com o objetivo de demonstrar suas atividades e serviços. O design incrível foi criado por Hamza Anza e incorporei animações utilizando a biblioteca React Reveal. Além disso, utilizamos o React Simply Carousel para criar uma sessão interativa de avaliações dos clientes.
+Bem-vindo ao repositório do projeto ISTAIX | Construction Company! Este projeto apresenta o website de uma empresa de construtora fictícia, com o objetivo de demonstrar suas atividades e serviços. O design incrível foi criado por Hamza Anza e incorporei animações utilizando a biblioteca React Reveal. Além disso, utilizamos o React Simply Carousel para criar uma sessão interativa de avaliações dos clientes.
 
 ## Descrição do Projeto
 
-O ISTAXIN | Construction Company é um projeto que simula o website de uma construtora renomada, exibindo seus projetos de construção, serviços oferecidos e avaliações de clientes. O foco principal do projeto é demonstrar a capacidade da empresa de forma atrativa.
+O ISTAIX | Construction Company é um projeto que simula o website de uma construtora renomada, exibindo seus projetos de construção, serviços oferecidos e avaliações de clientes. O foco principal do projeto é demonstrar a capacidade da empresa de forma atrativa.
 
 ## Funcionalidades
 
@@ -27,8 +27,8 @@ O ISTAXIN | Construction Company é um projeto que simula o website de uma const
 Para visualizar o projeto em sua máquina local, siga os passos abaixo:
 
 1. Certifique-se de ter o Node.js instalado: [Download Node.js](https://nodejs.org/)
-2. Clone este repositório: `git clone https://github.com/seu-usuario/istaxin-construction.git`
-3. Navegue até o diretório do projeto: `cd istaxin-construction`
+2. Clone este repositório: `git clone https://github.com/henriquepx/construction-company`
+3. Navegue até o diretório do projeto: `cd construction-company`
 4. Instale as dependências: `npm install`
 5. Inicie o servidor de desenvolvimento: `npm start`
 
