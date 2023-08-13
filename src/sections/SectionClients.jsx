@@ -32,6 +32,9 @@ const ArrowButtonLeft = styled.button`
   background-color: #E6F0F4;
   cursor: pointer;
 `
+const ContainerArrowCarrousel = styled.div`
+  display: flex;
+`
 
 class SectionClients extends Component {
   state = {
@@ -61,10 +64,11 @@ class SectionClients extends Component {
 
     return (
       <SectionClientsContainer>
-        <ArrowButtonLeft onClick={this.handlePrevClick}>&lt;</ArrowButtonLeft>
         <div>
         <TitleClientsContainer>Few words From Our Clients</TitleClientsContainer>
-        <Carousel
+        <ContainerArrowCarrousel>
+          <ArrowButtonLeft onClick={this.handlePrevClick}>&lt;</ArrowButtonLeft>
+          <Carousel
           activeSlideIndex={activeSlideIndex}
           onRequestChange={this.setActiveSlideIndex}
           itemsToShow={1} 
@@ -111,9 +115,10 @@ class SectionClients extends Component {
             />
           </div>
         </Carousel>
+        <ArrowButtonRight onClick={this.handleNextClick}>&gt;</ArrowButtonRight>
+        </ContainerArrowCarrousel>
         </div>
 
-        <ArrowButtonRight onClick={this.handleNextClick}>&gt;</ArrowButtonRight>
       </SectionClientsContainer>
     )
   }
