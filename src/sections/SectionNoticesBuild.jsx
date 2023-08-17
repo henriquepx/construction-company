@@ -6,6 +6,10 @@ const ContainerSectionNoticesBuild = styled.div`
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+
+    @media (max-width: 768px) {
+        margin-top: 35rem;
+    }
 `
 const ContainerNotices = styled.div`
     display: flex;
@@ -13,6 +17,11 @@ const ContainerNotices = styled.div`
     flex-wrap: wrap;
 
     margin-bottom: 15rem;
+
+    @media (max-width: 768px) {
+        gap: 50px;
+        padding: 2rem;
+    }
 `
 const ContainerBuilds = styled.div`
     display: flex;
