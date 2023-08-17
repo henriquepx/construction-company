@@ -14,7 +14,7 @@ const SizeFooter = styled.div`
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 `
 const ContainerFooterContent = styled.div`
     display: flex;
