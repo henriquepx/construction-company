@@ -18,11 +18,19 @@ const ContainerSecWaitlist = styled.div`
         position: absolute;
         right: 28%;
         bottom: 53%;
+
+        @media (max-width: 768px) {
+            font-size: 1.5rem;
+            right: 10%;
+        }
     }
     div {
         position: absolute;
         right: 30%;
         bottom: 39%;
+        @media (max-width: 768px) {
+            right: 10%;
+        }
         input {
             padding: 20px 50px 20px 10px;
             text-indent: 1px;
@@ -37,11 +45,16 @@ const ContainerSecWaitlist = styled.div`
         }
     }
 `
+const ImgSectionWaitList = styled.img`
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+`
 
 const SectionWaitlist = () => {
   return (
     <ContainerSecWaitlist>
-        <img src="/bgfooter.png" alt="" />
+        <ImgSectionWaitList src="/bgfooter.png" alt="" />
         <h1> Get a Free Quote Now!</h1>
         <div>
             <input type="email" placeholder='Your work email adress'/>
