@@ -6,6 +6,14 @@ const ContainerFooter = styled.div`
 
     display: flex;
     align-items: center;
+    @media (max-width: 450px) {
+        height: 80vh;
+        align-items: left;
+        padding-left: 1.5rem;
+    }
+    @media (max-width: 768px) {
+        padding: 1.5rem;
+    }
 `
 const SizeFooter = styled.div`
     max-width: 1200px;
@@ -14,12 +22,20 @@ const SizeFooter = styled.div`
 
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    
+    @media (max-width: 450px) {
+        flex-direction: column;
+        gap: 50px;
+    }
 `
 const ContainerFooterContent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    @media (max-width: 768px) {
+        align-items: flex-start;
+    }
 `
 const LogoContainer = styled.div`
   display: flex;
@@ -36,13 +52,20 @@ const LogoTitle = styled.p`
 const NavFooter = styled.nav`
     div {
         display: flex;
-        flex-direction: columns;
+        flex-direction: column;
         gap: 25px;
 
         margin-bottom: 1rem;
+
         ul {
             display: flex;
+            flex-direction: row;
             gap: 20px;
+
+            @media (max-width: 425px) {
+                flex-wrap: wrap;
+            }
+
             li {
                 a {
                     color: var(--color-white);
@@ -87,10 +110,11 @@ const ContainerDownload = styled.div`
     h2 {
         font-family: var(--font);
         color: var(--color-white);
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     img {
         cursor: pointer;
+        width: 120px;
     }
 `
 

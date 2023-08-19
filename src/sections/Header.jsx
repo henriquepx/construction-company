@@ -15,6 +15,10 @@ const MainSize = styled.div`
   
   padding-top: .9rem;
   background-color: var(--color-one);
+
+  @media (max-width: 425px) {
+    flex-wrap: wrap;
+  }
 `
 const LogoContainer = styled.div`
   display: flex;
