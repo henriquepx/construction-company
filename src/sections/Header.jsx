@@ -16,6 +16,11 @@ const MainSize = styled.div`
   padding-top: .9rem;
   background-color: var(--color-one);
 
+  @media (max-width: 768px) {
+   margin-left: 2rem;
+   width: 100%;
+  }
+
   @media (max-width: 425px) {
     flex-wrap: wrap;
   }
@@ -68,6 +73,10 @@ const ButtonHeaderGetStarted = styled.button`
   font-family: var(--font);
 
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    margin-right: 3rem;
+  }
 `
 
 const Header = () => {

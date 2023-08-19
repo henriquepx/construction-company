@@ -8,7 +8,7 @@ const ContainerSectionNoticesBuild = styled.div`
     margin: 0 auto;
 
     @media (max-width: 768px) {
-        margin-top: 35rem;
+        margin-top: 25rem;
     }
 `
 const ContainerNotices = styled.div`

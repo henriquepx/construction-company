@@ -12,6 +12,10 @@ const MainSize = styled.div`
     width: 100%;
     margin: 0 auto;
     padding: 10rem 0rem;
+
+    @media (max-width: 768px) {
+        padding-left: 1rem;
+    }
 `;
 
 const TitleMain = styled.h1`
@@ -84,21 +88,11 @@ const Main = () => {
                 img="/Julio.png"
                 name="Julio"
                 position={{ top: '150px', right: '500px' }}
-                mediaQueries={{
-                  1024: { top: '350px', right: '100px' },
-                  768: { top: '120px', right: '90px' },
-                  425: { top: '110px', right: '10px' }
-                }}
             />
             <MainAvaliation 
                 img="/Marta.png"
                 name="Marta"
                 position={{ top: '550px', right: '750px' }}
-                mediaQueries={{
-                  1024: { top: '520px', right: '300px' },
-                  768: { top: '530px', right: '120px' },
-                  425: { top: '700px', right: '170px' }
-                }}
             />
         </MainSize>
     </MainContainer>
