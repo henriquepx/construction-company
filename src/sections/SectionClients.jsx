@@ -51,6 +51,7 @@ const ContainerArrowCarrousel = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
   }
+
 `
 
 const DivSlideCarousel = styled.div`
