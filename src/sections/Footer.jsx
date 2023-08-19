@@ -27,6 +27,10 @@ const SizeFooter = styled.div`
         flex-direction: column;
         gap: 50px;
     }
+
+    @media (max-width: 1024px) {
+        padding: 0rem 1.5rem;
+    }
 `
 const ContainerFooterContent = styled.div`
     display: flex;

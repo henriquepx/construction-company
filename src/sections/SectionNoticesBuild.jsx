@@ -44,6 +44,9 @@ const ContainerBuilds = styled.div`
         height: auto;
 
         margin-bottom: 10rem;
+        @media (max-width: 768px) {
+            width: 90%;
+        }
     }
 `
 

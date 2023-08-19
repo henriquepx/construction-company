@@ -21,13 +21,15 @@ const TitleTrustedClients = styled.h1`
 `
 const DivImgsCompany = styled.div`
     display: flex;
-    gap: 50px;
-    justify-content: space-between;
+    gap: 20px;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-
-    @media (max-width: 768px) {
-        margin-bottom: 35rem;
+    @media (max-width: 769px) {
+        gap: 50px;
+    }
+    @media (min-width: 800px) and (max-width: 1024px) {
+        gap: 20px;
     }
 `
 const TitleSecAchievements = styled.h1`
@@ -63,12 +65,21 @@ const IntroContainerAchievements = styled.div`
         text-align: center;
         margin-bottom: 2rem;
     }
+
+    @media (max-width: 1024px) {
+        padding-left: 1rem;
+    }
 `
 const FlexWrapAchievements = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     width: 50%;
+    @media (max-width: 768px) {
+        gap: 50px;
+        width: 100%; 
+        justify-content: center;
+    }
 `
 
 

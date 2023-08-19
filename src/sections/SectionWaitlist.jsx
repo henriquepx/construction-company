@@ -20,21 +20,25 @@ const ContainerSecWaitlist = styled.div`
         bottom: 53%;
 
         @media (max-width: 768px) {
-            font-size: 1.5rem;
-            right: 10%;
+            font-size: 1.3rem;
+            right: 12%;
         }
     }
     div {
         position: absolute;
-        right: 30%;
+        right: 20%;
         bottom: 39%;
         @media (max-width: 768px) {
-            right: 10%;
+            right: 12%;
         }
         input {
             padding: 20px 50px 20px 10px;
             text-indent: 1px;
             font-family: var(--font);
+            @media (max-width: 768px) {
+                padding: 10px;
+                text-indent: 0px;
+        }
         }
         button {
             padding: 20px 20px;
@@ -42,6 +46,10 @@ const ContainerSecWaitlist = styled.div`
             font-family: var(--font);
             color: var(--color-white);
             cursor: pointer;
+            @media (max-width: 768px) {
+                padding: 10px;
+                font-size: .9rem;
+        }
         }
     }
 `
@@ -49,7 +57,11 @@ const ImgSectionWaitList = styled.img`
     @media (max-width: 768px) {
         width: 100%;
     }
+    @media (max-width: 1024px) {
+        width: 80%;
+    }
 `
+
 
 const SectionWaitlist = () => {
   return (

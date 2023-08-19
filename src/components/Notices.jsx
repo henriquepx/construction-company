@@ -9,6 +9,8 @@ const ContainerNotices = styled.div`
     max-width: 350px;
     width: 100%;
     margin: 0 auto;
+
+    margin-top: 2rem;
     h1 {
         font-family: var(--font);
         color: var(--color-one);

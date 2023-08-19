@@ -83,7 +83,7 @@ const Main = () => {
             <MainAvaliation 
                 img="/Julio.png"
                 name="Julio"
-                position={{ top: '250px', right: '500px' }}
+                position={{ top: '150px', right: '500px' }}
                 mediaQueries={{
                   1024: { top: '350px', right: '100px' },
                   768: { top: '120px', right: '90px' },

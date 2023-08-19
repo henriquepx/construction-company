@@ -21,5 +21,6 @@ export const GlobalStyles = createGlobalStyle`
   vertical-align: baseline;
   list-style: none;
   text-decoration: none;
+
 }
 `;
