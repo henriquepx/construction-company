@@ -12,9 +12,6 @@ const AvaliationMain = styled.div`
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
-    @media (max-width: 768px) {
-      display: none;
-    }
     div {
         h1 {
             font-family: var(--font);

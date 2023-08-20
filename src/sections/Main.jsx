@@ -85,15 +85,21 @@ const Main = () => {
                 </div>
             </DivMainExplore>
             <MainAvaliation 
-                img="/Julio.png"
-                name="Julio"
-                position={{ top: '150px', right: '500px' }}
-            />
-            <MainAvaliation 
-                img="/Marta.png"
-                name="Marta"
-                position={{ top: '550px', right: '750px' }}
-            />
+            img="/Julio.png"
+            name="Julio"
+            position={{
+              top: '150px', 
+              right: window.innerWidth <= 1024 ? '50px' : window.innerWidth <= 768 ? '50px' : '500px'
+            }}
+        />
+        <MainAvaliation 
+            img="/Marta.png"
+            name="Marta"
+            position={{
+              top: '550px', 
+              right: window.innerWidth <= 1024 ? '200px' : window.innerWidth <= 768 ? '10px' : '750px'
+            }}
+        />
         </MainSize>
     </MainContainer>
   );

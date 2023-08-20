@@ -28,6 +28,7 @@ const ContainerNotices = styled.div`
     @media (max-width: 768px) {
         gap: 50px;
         padding: 2rem;
+        flex-wrap: wrap;
     }
 `
 const ContainerBuilds = styled.div`

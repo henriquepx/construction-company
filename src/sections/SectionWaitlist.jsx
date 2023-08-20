@@ -58,11 +58,8 @@ const ContainerSecWaitlist = styled.div`
     }
 `
 const ImgSectionWaitList = styled.img`
-    @media (max-width: 768px) {
-        width: 100%;
-    }
     @media (max-width: 1024px) {
-        width: 80%;
+        width: 90%;
     }
 `
 
