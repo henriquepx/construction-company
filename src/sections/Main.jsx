@@ -13,7 +13,7 @@ const MainSize = styled.div`
     margin: 0 auto;
     padding: 10rem 0rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         padding-left: 1rem;
     }
 `;

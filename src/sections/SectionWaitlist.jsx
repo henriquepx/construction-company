@@ -23,6 +23,10 @@ const ContainerSecWaitlist = styled.div`
             font-size: 1.3rem;
             right: 12%;
         }
+        @media (max-width: 1024px) {
+            font-size: 1.8rem;
+            right: 20%;
+        }
     }
     div {
         position: absolute;
@@ -35,10 +39,10 @@ const ContainerSecWaitlist = styled.div`
             padding: 20px 50px 20px 10px;
             text-indent: 1px;
             font-family: var(--font);
-            @media (max-width: 768px) {
+            @media (max-width: 1024px) {
                 padding: 10px;
                 text-indent: 0px;
-        }
+            }
         }
         button {
             padding: 20px 20px;
@@ -46,10 +50,10 @@ const ContainerSecWaitlist = styled.div`
             font-family: var(--font);
             color: var(--color-white);
             cursor: pointer;
-            @media (max-width: 768px) {
+            @media (max-width: 1024px) {
                 padding: 10px;
                 font-size: .9rem;
-        }
+            }
         }
     }
 `

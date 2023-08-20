@@ -18,6 +18,13 @@ const ContainerNotices = styled.div`
 
     margin-bottom: 15rem;
 
+    @media (max-width: 1024px) {
+        gap: 20px;
+        padding: 1rem;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
     @media (max-width: 768px) {
         gap: 50px;
         padding: 2rem;
@@ -44,7 +51,7 @@ const ContainerBuilds = styled.div`
         height: auto;
 
         margin-bottom: 10rem;
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             width: 90%;
         }
     }

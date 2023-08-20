@@ -16,8 +16,8 @@ const MainSize = styled.div`
   padding-top: .9rem;
   background-color: var(--color-one);
 
-  @media (max-width: 768px) {
-   margin-left: 2rem;
+  @media (max-width: 1024px) {
+   padding-left: 2rem;
    width: 100%;
   }
 
@@ -74,7 +74,7 @@ const ButtonHeaderGetStarted = styled.button`
 
   cursor: pointer;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     margin-right: 3rem;
   }
 `
