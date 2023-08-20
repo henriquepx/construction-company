@@ -13,7 +13,7 @@ const MainSize = styled.div`
     margin: 0 auto;
     padding: 10rem 0rem;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1280px) {
         padding-left: 1rem;
     }
 `;
@@ -85,21 +85,21 @@ const Main = () => {
                 </div>
             </DivMainExplore>
             <MainAvaliation 
-            img="/Julio.png"
-            name="Julio"
-            position={{
-              top: '150px', 
-              right: window.innerWidth <= 1024 ? '50px' : window.innerWidth <= 768 ? '50px' : '500px'
-            }}
-        />
-        <MainAvaliation 
-            img="/Marta.png"
-            name="Marta"
-            position={{
-              top: '550px', 
-              right: window.innerWidth <= 1024 ? '200px' : window.innerWidth <= 768 ? '10px' : '750px'
-            }}
-        />
+                img="/Julio.png"
+                name="Julio"
+                position={{
+                top: '150px', 
+                right: window.innerWidth <= 1024 ? '50px' : window.innerWidth <= 768 ? '50px' : '500px'
+                }}
+            />
+            <MainAvaliation 
+                img="/Marta.png"
+                name="Marta"
+                position={{
+                top: '550px', 
+                right: window.innerWidth <= 1024 ? '200px' : window.innerWidth <= 768 ? '10px' : '750px'
+                }}
+            />
         </MainSize>
     </MainContainer>
   );

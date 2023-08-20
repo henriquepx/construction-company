@@ -30,6 +30,7 @@ const DivImgsCompany = styled.div`
     }
     @media (min-width: 800px) and (max-width: 1024px) {
         gap: 20px;
+        padding-bottom: 5rem;
     }
 `
 const TitleSecAchievements = styled.h1`
@@ -46,7 +47,7 @@ const ContainerAchievements = styled.div`
 
     padding: 10rem 0rem 6rem 0rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1028px) {
         justify-content: center;
         flex-direction: column;
     }
@@ -66,7 +67,9 @@ const IntroContainerAchievements = styled.div`
         margin-bottom: 2rem;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1280px) {
+        justify-content: center;
+        align-items: center;
         padding-left: 1rem;
     }
 `

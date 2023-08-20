@@ -13,10 +13,10 @@ const MainSize = styled.div`
   width: 100%;
   margin: 0 auto;
   
-  padding-top: .9rem;
+  padding: 1rem 0rem 2rem 0rem;
   background-color: var(--color-one);
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
    padding-left: 2rem;
    width: 100%;
   }
@@ -74,8 +74,8 @@ const ButtonHeaderGetStarted = styled.button`
 
   cursor: pointer;
 
-  @media (max-width: 1024px) {
-    margin-right: 3rem;
+  @media (max-width: 1280px) {
+    margin-right: 2.5rem;
   }
 `
 

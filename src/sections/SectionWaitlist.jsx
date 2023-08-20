@@ -21,19 +21,22 @@ const ContainerSecWaitlist = styled.div`
 
         @media (max-width: 768px) {
             font-size: 1.3rem;
-            right: 12%;
+            right: 5%;
         }
-        @media (max-width: 1024px) {
+        @media (max-width: 1280px) {
             font-size: 1.8rem;
             right: 20%;
         }
     }
     div {
         position: absolute;
-        right: 20%;
+        right: 28%;
         bottom: 39%;
         @media (max-width: 768px) {
             right: 12%;
+        }
+        @media (max-width: 1280px) {
+            right: 20%;
         }
         input {
             padding: 20px 50px 20px 10px;
