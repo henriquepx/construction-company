@@ -89,7 +89,7 @@ const Main = () => {
                 name="Julio"
                 position={{
                 top: '150px', 
-                right: window.innerWidth <= 1024 ? '50px' : window.innerWidth <= 768 ? '50px' : '500px'
+                right: '400px',
                 }}
             />
             <MainAvaliation 
@@ -97,7 +97,7 @@ const Main = () => {
                 name="Marta"
                 position={{
                 top: '550px', 
-                right: window.innerWidth <= 1024 ? '200px' : window.innerWidth <= 768 ? '10px' : '750px'
+                right: '550px',
                 }}
             />
         </MainSize>

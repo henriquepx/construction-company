@@ -55,6 +55,7 @@ const ContainerAchievements = styled.div`
 const IntroContainerAchievements = styled.div`
     display: flex;
     flex-direction: column;
+    text-align: left;
     width: 50%;
     p {
         font-family: var(--font);
@@ -69,8 +70,7 @@ const IntroContainerAchievements = styled.div`
 
     @media (max-width: 1280px) {
         justify-content: center;
-        align-items: center;
-        padding-left: 1rem;
+        padding-left: 5rem;
     }
 `
 const FlexWrapAchievements = styled.div`
