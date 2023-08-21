@@ -39,6 +39,9 @@ const LogoTitle = styled.p`
 const NavHeader = styled.nav`
   display: flex;
   gap: 10px;
+  @media (max-width: 450px) {
+    flex-direction: column;
+  }
   li {
     a {
       font-family: var(--font);

@@ -39,6 +39,9 @@ const TitleSecAchievements = styled.h1`
     font-size: 3rem;
     font-weight: 600;
     width: 100%;
+    @media (max-width: 450px) {
+        font-size: 2rem;
+    }
 `
 const ContainerAchievements = styled.div`
     display: flex;
@@ -61,16 +64,17 @@ const IntroContainerAchievements = styled.div`
         font-family: var(--font);
         color: var(--color-one);
     }
-
     @media (max-width: 768px) {
         width: 100%;
         text-align: center;
         margin-bottom: 2rem;
     }
-
     @media (max-width: 1280px) {
         justify-content: center;
         padding-left: 5rem;
+    }
+    @media (max-width: 450px) {
+        padding-left: 0rem;
     }
 `
 const FlexWrapAchievements = styled.div`
@@ -82,6 +86,7 @@ const FlexWrapAchievements = styled.div`
         gap: 50px;
         width: 100%; 
         justify-content: center;
+        align-items: center;
     }
 `
 

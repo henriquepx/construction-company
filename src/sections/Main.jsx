@@ -12,20 +12,23 @@ const MainSize = styled.div`
     width: 100%;
     margin: 0 auto;
     padding: 10rem 0rem;
-
     @media (max-width: 1280px) {
         padding-left: 1rem;
     }
+    @media (max-width: 450px) {
+        padding: 5rem 0rem 5rem 1rem;
+    }
 `;
-
 const TitleMain = styled.h1`
     font-family: var(--font);
     font-size: 4rem;
     font-weight: 600;
     color: var(--color-one);
     margin-bottom: 1rem;
+    @media (max-width: 450px) {
+        font-size: 2.5rem;
+    }
 `;
-
 const DescriptionMain = styled.p`
     color: var(--color-two);
     font-family: var(--font);
@@ -36,10 +39,12 @@ const DescriptionMain = styled.p`
         font-weight: 800;
     }
 `;
-
 const DivMainExplore = styled.div`
     display: flex;
     gap: 30px;
+    @media (max-width: 450px) {
+        flex-direction: column;
+    }
     button {
         padding: 1.3rem 4rem;
         background-color: var(--color-one);
@@ -47,6 +52,9 @@ const DivMainExplore = styled.div`
         font-family: var(--font);
         border-radius: 5px;
         cursor: pointer;
+        @media (max-width: 450px) {
+            margin: 0 5rem 0 0;
+        }
     }
     div {
         display: flex;

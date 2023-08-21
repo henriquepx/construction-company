@@ -24,11 +24,13 @@ const ContainerNotices = styled.div`
         justify-content: center;
         flex-wrap: nowrap;
     }
-
     @media (max-width: 768px) {
         gap: 50px;
         padding: 2rem;
         flex-wrap: wrap;
+    }
+    @media (max-width: 450px) {
+        padding-top: 35rem;
     }
 `
 const ContainerBuilds = styled.div`
@@ -41,11 +43,18 @@ const ContainerBuilds = styled.div`
         color: var(--color-one);
         font-size: 3rem;
         font-weight: 600;
+        @media (max-width: 450px) {
+            text-align: center;
+            font-size: 2rem;
+        }
     }
     p {
         font-family: var(--font);
         color: var(--color-one);
         margin-bottom: 2rem;
+        @media (max-width: 450px) {
+            text-align: center;
+        }
     }
     img {
         max-width: 100%;

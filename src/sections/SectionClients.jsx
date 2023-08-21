@@ -35,6 +35,10 @@ const ArrowButtonRight = styled.button`
     bottom: 5%;
     z-index: 888;
   }
+  @media (max-width: 450px) {
+    right: 8%;
+    bottom: 3%;
+  }
 `
 const ArrowButtonLeft = styled.button`
   border: none;
@@ -42,11 +46,19 @@ const ArrowButtonLeft = styled.button`
   color: var(--color-one);
   background-color: #E6F0F4;
   cursor: pointer;
+  z-index: 888;
   @media (max-width: 768px) {
     display: block;
     position: absolute;
     right: 15%;
     bottom: 5%;
+    z-index: 888;
+  }
+  @media (max-width: 450px) {
+    display: block;
+    position: absolute;
+    right: 19%;
+    bottom: 3%;
     z-index: 888;
   }
 
@@ -60,7 +72,6 @@ const ContainerArrowCarrousel = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
   }
-
 `
 
 const DivSlideCarousel = styled.div`
