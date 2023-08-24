@@ -14,6 +14,10 @@ const SectionClientsContainer = styled.div`
       height: 90vh;
     }
 
+    @media (min-width: 359px) and (max-width: 362px) {
+      height: 100vh;
+    }
+
     @media (max-width: 350px) {
       height: 100vh;
     }
@@ -137,7 +141,7 @@ class SectionClients extends Component {
                 img="/client.png"
                 name="Jane Cooper"
                 text="We had an incredible experience working with them and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly."
-                job="CEO, ABC Corporation"
+                job="ABC Corporation"
               />
             </DivSlideCarousel>
             <DivSlideCarousel>
@@ -145,7 +149,7 @@ class SectionClients extends Component {
                 img="/client2.png"
                 name="Juliet Clayre"
                 text="We're extremely pleased with the services provided by the team. They have a remarkable ability to understand and adapt to our needs. Their dedication and hard work played a significant role in enhancing our project. Highly recommended!"
-                job="CEO, Vanders Academy"
+                job="Vanders Academy"
               />
             </DivSlideCarousel>
             <DivSlideCarousel>
@@ -153,7 +157,7 @@ class SectionClients extends Component {
                 img="/client3.png"
                 name="Jasmine Thea"
                 text="Working with this team was a fantastic experience. Their creative approach to problem-solving brought fresh ideas to our project. They delivered high-quality work within the given timeframe and exceeded our expectations."
-                job="Marketing Producer, SKA Corporation"
+                job="SKA Corporation"
               />
             </DivSlideCarousel>
             <DivSlideCarousel>
@@ -161,7 +165,7 @@ class SectionClients extends Component {
                 img="/client4.png"
                 name="Martin Spencer"
                 text="The team's expertise and professionalism were outstanding. Their attention to detail and commitment to delivering results were impressive. Collaborating with them was a pleasure, and they significantly contributed to the success of our project."
-                job="Manager Production, SKA Corporation"
+                job="SKA Corporation"
               />
             </DivSlideCarousel>
             <DivSlideCarousel>
@@ -169,7 +173,7 @@ class SectionClients extends Component {
                 img="/client5.png"
                 name="Noah Everett"
                 text="We're truly thankful for the support provided by the team. Their dedication to understanding our vision and delivering solutions that align with our goals was remarkable. Their contribution made a significant impact on the success of our project."
-                job="CEO, SKA Corporation"
+                job="SKA Corporation"
               />
               </DivSlideCarousel>
             </Carousel>

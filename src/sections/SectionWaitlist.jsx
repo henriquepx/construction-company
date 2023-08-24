@@ -7,31 +7,18 @@ const ContainerSecWaitlist = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    position: relative;
-`
-const ImgSectionWaitList = styled.img`
-    @media (max-width: 1024px) {
-        width: 90%;
-    }
-
-    @media (max-width: 575px) {
-        display: none;
-    }
 `
 const DivInputsWailist = styled.div`
-    position: absolute;
-    right: 28%;
-    bottom: 39%;
-        @media (max-width: 1280px) {
-            right: 12%;
+        display: flex;
+        @media (max-width: 768px) {
+            width: 100%;
         }
         input {
             padding: 20px 50px 20px 10px;
             text-indent: 1px;
             font-family: var(--font);
             @media (max-width: 1024px) {
-                padding: 10px;
+                padding: 0px 5px;
                 text-indent: 0px;
             }
         }
@@ -41,42 +28,75 @@ const DivInputsWailist = styled.div`
             font-family: var(--font);
             color: var(--color-white);
             cursor: pointer;
-            @media (max-width: 1024px) {
-                padding: 10px;
-                font-size: .9rem;
-            }
+            @media (max-width: 769px) {
+                padding: 5px;
+        }
         }
 `
 const DivResponsiveWailist = styled.div`
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: right;
+    @media (min-width: 722px) and (max-width: 768px) {
+        padding-right: 2rem;
+    }
+    @media (max-width: 720px) {
+        padding-right: 0rem;
+        text-align: center;
+    }
     h1 {
         font-family: var(--font);
         color: var(--color-one);
         font-size: 2.5rem;
         font-weight: 600;
-
-        position: absolute;
-        right: 28%;
-        bottom: 53%;
-        @media (max-width: 1280px) {
-            font-size: 1.8rem;
-            right: 12%;
+        @media (max-width: 769px) {
+            font-size: 1.5rem;
         }
     }
 `
+const SizeWaitlist = styled.div`
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    width: 80%;
+    background-color: #bcc4d4;
+    border-radius: 15px;
+    @media (min-width: 722px) and (max-width: 768px) {
+        width: 95%;
+    }
+    @media (max-width: 720px) {
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 3rem 0rem;
+
+        background-image: url(/buildings.png);
+        background-position: center;
+    }
+`
+const ImgPedreiro = styled.img`
+    @media (max-width: 721px) {
+        display: none;
+    }
+`
 
 const SectionWaitlist = () => {
   return (
     <ContainerSecWaitlist>
-        <ImgSectionWaitList src="/bgfooter.png" alt="" />
-        <DivResponsiveWailist>
-            <h1> Get a Free Quote Now!</h1>
-            <DivInputsWailist>
-                <input type="email" placeholder='Your work email adress'/>
-                <button>Join the waitlist</button>
-            </DivInputsWailist>
-        </DivResponsiveWailist>
-        
+        <SizeWaitlist>
+            <ImgPedreiro src="/pedreiro.png" alt="" />
+             <DivResponsiveWailist>
+                <h1> Get a Free Quote Now!</h1>
+                <DivInputsWailist>
+                    <input type="email" placeholder='Your work email adress'/>
+                    <button>Join the waitlist</button>
+                </DivInputsWailist>
+            </DivResponsiveWailist>
+        </SizeWaitlist>
     </ContainerSecWaitlist>
   )
 }
