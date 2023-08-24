@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const ContainerFooter = styled.div`
     height: 40vh;
     background-color: var(--color-one);
+    position: relative;
 
     display: flex;
     align-items: center;
@@ -19,6 +20,7 @@ const SizeFooter = styled.div`
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    z-index: 10;
 
     display: flex;
     justify-content: space-between;
@@ -121,10 +123,18 @@ const ContainerDownload = styled.div`
         width: 120px;
     }
 `
+const BgFooter = styled.img`
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+`
 
 const Footer = () => {
   return (
     <ContainerFooter>
+        <BgFooter src="/maskfooter.png" alt="Fundo Footer" />
         <SizeFooter>
             <ContainerFooterContent>
                 <LogoContainer>
