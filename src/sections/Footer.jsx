@@ -7,13 +7,10 @@ const ContainerFooter = styled.div`
 
     display: flex;
     align-items: center;
-    @media (max-width: 450px) {
+    @media (max-width: 768px) {
         height: 80vh;
         align-items: left;
         padding-left: 1.5rem;
-    }
-    @media (max-width: 768px) {
-        padding: 1.5rem;
     }
 `
 const SizeFooter = styled.div`
@@ -25,7 +22,7 @@ const SizeFooter = styled.div`
     display: flex;
     justify-content: space-between;
     
-    @media (max-width: 450px) {
+    @media (max-width: 677px) {
         flex-direction: column;
         gap: 50px;
     }

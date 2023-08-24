@@ -80,14 +80,17 @@ const ContainerArrowCarrousel = styled.div`
 const DivSlideCarousel = styled.div`
   width: 700px;
 
-  @media (max-width: 768px) {
+  @media (min-width: 601px) and (max-width: 768px) {
     width: 550px;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 455px) {
     width: 350px;
   }
   @media (max-width: 360px) {
     width: 290px;
+  }
+  @media (min-width: 456px) and (max-width: 599px) {
+    width: 450px;
   }
 `
 
