@@ -85,8 +85,9 @@ const FlexWrapAchievements = styled.div`
     @media (max-width: 768px) {
         gap: 50px;
         width: 100%; 
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        padding-left: 3rem;
     }
 `
 

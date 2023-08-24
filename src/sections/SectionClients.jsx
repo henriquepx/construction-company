@@ -10,9 +10,13 @@ const SectionClientsContainer = styled.div`
     justify-content: center;
     align-items: center;
 
-    @media (max-width: 425px) {
-      height: 80vh;
-  }
+    @media (max-width: 450px) {
+      height: 90vh;
+    }
+
+    @media (max-width: 350px) {
+      height: 100vh;
+    }
 `
 const TitleClientsContainer = styled.h1`
     color: var(--color-one);
@@ -37,7 +41,7 @@ const ArrowButtonRight = styled.button`
   }
   @media (max-width: 450px) {
     right: 8%;
-    bottom: 3%;
+    bottom: 0%;
   }
 `
 const ArrowButtonLeft = styled.button`
@@ -58,10 +62,9 @@ const ArrowButtonLeft = styled.button`
     display: block;
     position: absolute;
     right: 19%;
-    bottom: 3%;
+    bottom: 0%;
     z-index: 888;
   }
-
 `
 const ContainerArrowCarrousel = styled.div`
   display: flex;
@@ -77,8 +80,14 @@ const ContainerArrowCarrousel = styled.div`
 const DivSlideCarousel = styled.div`
   width: 700px;
 
+  @media (max-width: 768px) {
+    width: 550px;
+  }
   @media (max-width: 425px) {
     width: 350px;
+  }
+  @media (max-width: 360px) {
+    width: 290px;
   }
 `
 
